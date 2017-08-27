@@ -89,43 +89,43 @@
 /**
  * padding
  */
- .pd-20 { padding: 20%; }
- .pd-40 { padding: 40%; }
- .pd-60 { padding: 60%; }
- .pd-80 { padding: 80%; }
+ .pa-20 { padding: 20%; }
+ .pa-40 { padding: 40%; }
+ .pa-60 { padding: 60%; }
+ .pa-80 { padding: 80%; }
  
  /* vertical */
- .pd-vt-20 { padding: inherit 20%; }
- .pd-vt-40 { padding: inherit 40%; }
- .pd-vt-60 { padding: inherit 60%; }
- .pd-vt-80 { padding: inherit 80%; }
+ .pa-vt-20 { padding: inherit 20%; }
+ .pa-vt-40 { padding: inherit 40%; }
+ .pa-vt-60 { padding: inherit 60%; }
+ .pa-vt-80 { padding: inherit 80%; }
  
  /* horizonal */
- .pd-hz-20 { padding: 20% inherit; }
- .pd-hz-40 { padding: 40% inherit; }
- .pd-hz-60 { padding: 60% inherit; }
- .pd-hz-80 { padding: 80% inherit; }
+ .pa-hz-20 { padding: 20% inherit; }
+ .pa-hz-40 { padding: 40% inherit; }
+ .pa-hz-60 { padding: 60% inherit; }
+ .pa-hz-80 { padding: 80% inherit; }
  
  /* left */
- .pd-l-20 { padding-left: 20%; }
- .pd-l-40 { padding-left: 40%; }
- .pd-l-60 { padding-left: 60%; }
- .pd-l-80 { padding-left: 80%; }
+ .pa-l-20 { padding-left: 20%; }
+ .pa-l-40 { padding-left: 40%; }
+ .pa-l-60 { padding-left: 60%; }
+ .pa-l-80 { padding-left: 80%; }
  
  /* right */
- .pd-r-20 { padding-right: 20%; }
- .pd-r-40 { padding-right: 40%; }
- .pd-r-60 { padding-right: 60%; }
- .pd-r-80 { padding-right: 80%; }
+ .pa-r-20 { padding-right: 20%; }
+ .pa-r-40 { padding-right: 40%; }
+ .pa-r-60 { padding-right: 60%; }
+ .pa-r-80 { padding-right: 80%; }
  
  /* top */
- .pd-t-20 { padding-top: 20%; }
- .pd-t-40 { padding-top: 40%; }
- .pd-t-60 { padding-top: 60%; }
- .pd-t-80 { padding-top: 80%; }
+ .pa-t-20 { padding-top: 20%; }
+ .pa-t-40 { padding-top: 40%; }
+ .pa-t-60 { padding-top: 60%; }
+ .pa-t-80 { padding-top: 80%; }
  
  /* bottom */
- .pd-b-20 { padding-bottom: 20%; }
- .pd-b-40 { padding-bottom: 40%; }
- .pd-b-60 { padding-bottom: 60%; }
- .pd-b-80 { padding-bottom: 80%; }
+ .pa-b-20 { padding-bottom: 20%; }
+ .pa-b-40 { padding-bottom: 40%; }
+ .pa-b-60 { padding-bottom: 60%; }
+ .pa-b-80 { padding-bottom: 80%; }
