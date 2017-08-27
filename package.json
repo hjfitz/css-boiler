@@ -1,0 +1,8 @@
+{
+  "name": "css-boiler",
+  "version": "0.0.1",
+  "description": "Minimal CSS boilerplate file",
+  "repository": "https://github.com/hjfitz/css-boiler",
+  "author": "Harry <hfitz83@gmail.com>",
+  "license": "GPL-2.0"
+}

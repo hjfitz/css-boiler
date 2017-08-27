@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/**
+ * top navbar
+ */
+
+.navbar { width: 100vw; }
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+}
+
+
+/**
+ * margin
+ */
+
+.mg-20 { margin: 20%; }
+.mg-40 { margin: 40%; }
+.mg-60 { margin: 60%; }
+.mg-80 { margin: 80%; }
+
+/* vertical */
+.mg-vt-20 { margin: inherit 20%; }
+.mg-vt-40 { margin: inherit 40%; }
+.mg-vt-60 { margin: inherit 60%; }
+.mg-vt-80 { margin: inherit 80%; }
+
+/* horizonal */
+.mg-hz-20 { margin: 20% inherit; }
+.mg-hz-40 { margin: 40% inherit; }
+.mg-hz-60 { margin: 60% inherit; }
+.mg-hz-80 { margin: 80% inherit; }
+
+/* left */
+.mg-l-20 { margin-left: 20%; }
+.mg-l-40 { margin-left: 40%; }
+.mg-l-60 { margin-left: 60%; }
+.mg-l-80 { margin-left: 80%; }
+
+/* right */
+.mg-r-20 { margin-right: 20%; }
+.mg-r-40 { margin-right: 40%; }
+.mg-r-60 { margin-right: 60%; }
+.mg-r-80 { margin-right: 80%; }
+
+/* top */
+.mg-t-20 { margin-top: 20%; }
+.mg-t-40 { margin-top: 40%; }
+.mg-t-60 { margin-top: 60%; }
+.mg-t-80 { margin-top: 80%; }
+
+/* bottom */
+.mg-b-20 { margin-bottom: 20%; }
+.mg-b-40 { margin-bottom: 40%; }
+.mg-b-60 { margin-bottom: 60%; }
+.mg-b-80 { margin-bottom: 80%; }
