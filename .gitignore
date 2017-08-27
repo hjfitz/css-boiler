@@ -58,4 +58,4 @@ typings/
 .env
 
 # Ignore test HTML files
-test.html
+index.html

@@ -42,6 +42,14 @@
   }
 
 /**
+ * gridding 
+ */
+.container { 
+    display: flex;
+    -webkit-display: flex;
+}
+
+/**
  * margin
  */
 .mg-20 { margin: 20%; }
