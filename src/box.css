@@ -1,74 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-/**
- * sheet vars
- * change these accordingly
- */
- @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto|Roboto+Mono');
-:root {
-    /* fonts */
-    --serif-font: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
-    --sans-font: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
-    --mono-font: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
-    /* colors */
-    --blue: #3949ab;
-    --red: #d32f2f;
-    --green: #43a047;
-    --yellow: #fbc02d;
-    --pink: #c2185b;
-    --grey: #757575;
-    --light-grey: #eeeeee;
-    --white: #fafafa;
-    --black: #212121;
-    /* sizes */
-}
+/** CSS Boxing **/
 
-/**
- * top navbar
- */
-.navbar { width: 100vw; }
-.navbar.fixed { position: fixed; top: 0; }
-
-/*
- * <code>
- */
-code { color: var(--red); font-family: var(--mono-font); }
-code.block { 
-     display: block;
-     padding: 5%;
-     background-color: var(--grey);
-     border: 1px var(--grey) solid;
-     border-radius: 10%;
-}
-
-/* UI Helpers */
-.materialButton { }
-.rippleButton { }
-
-/**
- * gridding 
- */
-.container { 
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 90vw;
-}
-
-.row { }
-
-/* Spacing */
-div[class^="col-"].spc-6 , div[class*=" col-"].spc-6  { }
-div[class^="col-"].spc-12, div[class*=" col-"].spc-12 { }
-div[class^="col-"].spc-24, div[class*=" col-"].spc-24 { }
-div[class^="col-"].spc-40, div[class*=" col-"].spc-40 { }
-
-/* Small columns */
-.col-s1 { }
-
-/* Medium Columns */
-
-/* Large Columns */
-
+/* simple border - no use case for any larger */
+.bd { border: 1px solid inherit }
 
 /**
  * margin
@@ -161,3 +96,4 @@ div[class^="col-"].spc-40, div[class*=" col-"].spc-40 { }
  .pa-b-40 { padding-bottom: 40%; }
  .pa-b-60 { padding-bottom: 60%; }
  .pa-b-80 { padding-bottom: 80%; }
+

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* General helpers and styling */
+
+/**
+ * top navbar
+ */
+.navbar { width: 100vw; }
+.navbar.fixed { position: fixed; top: 0; }
+
+/*
+ * <code>
+ */
+code { color: var(--red); font-family: var(--mono-font); }
+code.block { 
+     display: block;
+     padding: 5%;
+     background-color: var(--grey);
+     border: 1px var(--grey) solid;
+     border-radius: 10%;
+}
+
+/* UI Helpers */
+.materialButton { }
+.rippleButton { }
