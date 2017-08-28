@@ -1,11 +1,14 @@
-
 /* General helpers and styling */
+body {
+    margin: 0;
+}
 
 /**
  * top navbar
  */
 .navbar { width: 100vw; }
 .navbar.fixed { position: fixed; top: 0; }
+.navbar.fixed + .container { margin-top: 60px; }
 
 /*
  * <code>

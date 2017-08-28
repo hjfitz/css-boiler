@@ -1,0 +1,12 @@
+/* text alignment */
+.ta-c { text-align: center; }
+.ta-r { text-align: right;  }
+.ta-l { text-align: left;   }
+
+/* text decoration */
+.td-n { text-decoration: none; }
+
+/* font families */
+.sans  { font-family: var(--sans);  }
+.serif { font-family: var(--serif); }
+.mono  { font-family: var(--mono);  }
