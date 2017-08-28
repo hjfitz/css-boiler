@@ -1,8 +1,18 @@
 {
   "name": "css-boiler",
   "version": "0.0.1",
+  "scripts": {
+    "build": "gulp",
+    "postinstall": "gulp"
+  },
   "description": "Minimal CSS boilerplate file",
   "repository": "https://github.com/hjfitz/css-boiler",
   "author": "Harry <hfitz83@gmail.com>",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-rename": "^1.2.2"
+  }
 }
