@@ -22,8 +22,12 @@
      /* sizes */
  }
 
-/** Colors **/
+ /** Fonts **/
+ .sans { font-family: var(--sans-font); }
+ .serif { font-family: var(--serif-font); }
+ .mono { font-family: var(--mono-font); }
 
+/** Colors **/
 /* background */
 .bg-blue       { background-color: var(--blue);       }
 .bg-red        { background-color: var(--red);        }
