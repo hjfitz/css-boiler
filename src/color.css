@@ -6,11 +6,12 @@
  @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto|Roboto+Mono');
  :root {
      /* fonts */
-     --serif-font: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
-     --sans-font: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
-     --mono-font: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
+     --serif: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
+     --sans: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
+     --mono: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
      /* colors */
-     --blue: #3949ab;
+     --blue: #1e88e5;
+     --light-blue: #64b5f6;
      --red: #d32f2f;
      --green: #43a047;
      --yellow: #fbc02d;
@@ -23,9 +24,9 @@
  }
 
  /** Fonts **/
- .sans { font-family: var(--sans-font); }
- .serif { font-family: var(--serif-font); }
- .mono { font-family: var(--mono-font); }
+ .sans { font-family: var(--sans); }
+ .serif { font-family: var(--serif); }
+ .mono { font-family: var(--mono); }
 
 /** Colors **/
 /* background */

@@ -33,9 +33,28 @@ code.block {
 
 /* UI Helpers */
 
+.materialButton {
+  cursor: pointer;
+  background-color: var(--blue);
+  font-family: var(--sans);
+  color: var(--white);
+  border-radius: 2px;
+  padding: 10px 20px;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: 0.3s background-color ease;
+}
 
+.materialButton:hover {
+  filter: brightness(120%);
+}
 
-
+.paper {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+}
 /** CSS Boxing **/
 
 /* simple border - no use case for any larger */
@@ -336,11 +355,12 @@ code.block {
 
 :root {
   /* fonts */
-  --serif-font: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
-  --sans-font: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
-  --mono-font: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
+  --serif: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
+  --sans: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
+  --mono: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
   /* colors */
-  --blue: #3949ab;
+  --blue: #1e88e5;
+  --light-blue: #64b5f6;
   --red: #d32f2f;
   --green: #43a047;
   --yellow: #fbc02d;
@@ -355,15 +375,15 @@ code.block {
 /** Fonts **/
 
 .sans {
-  font-family: var(--sans-font);
+  font-family: var(--sans);
 }
 
 .serif {
-  font-family: var(--serif-font);
+  font-family: var(--serif);
 }
 
 .mono {
-  font-family: var(--mono-font);
+  font-family: var(--mono);
 }
 
 /** Colors **/
