@@ -19,11 +19,14 @@
     flex-wrap: wrap;
 }
 
+.col {
+    box-sizing: border-box;
+}
+
 /* Spacing */
-div[class^="col-"].spc-6 , div[class*=" col-"].spc-6  { }
-div[class^="col-"].spc-12, div[class*=" col-"].spc-12 { }
-div[class^="col-"].spc-24, div[class*=" col-"].spc-24 { }
-div[class^="col-"].spc-40, div[class*=" col-"].spc-40 { }
+.spc-12, .col { padding: 0 12px; }
+.spc-24       { padding: 0 24px; }
+.spc-40       { padding: 0 40px; }
 
 .col { flex: 0 0 auto; }
 

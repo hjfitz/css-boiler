@@ -1,12 +1,16 @@
 # The Idea
 Create a basic CSS file, to enable bootstrapping of a quick hack.
 
-## Todo
-* Gridding with Flexbox
+## Todo/Aims
+* <s>Gridding with Flexbox</s>
 * <s>Classes for background/foreground color</s>
 * Header/Body Styling
 * Sticky footer with Flex
 * Finish off key
+* Helpful CSS classes
+    * Material design button
+    * Better looking forms
+    * Material/Semantic inspired 'paper'
 
 # Key
 - The Box model. Of the form `BB-PP-SS` 
