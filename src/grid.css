@@ -37,13 +37,14 @@ body {
 .row.cols-center { justify-content: center; }
 
 .col {
+    padding: 1%;
     box-sizing: border-box;
 }
 
 /* Spacing */
-.spc-12, .col { padding: 0 12px; }
-.spc-24       { padding: 0 24px; }
-.spc-40       { padding: 0 40px; }
+.row.spc-12 > .col { padding-left: 12px; padding-right: 12px; }
+.row.spc-24 > .col { padding-left: 24px; padding-right: 24px; }
+.row.spc-40 > .col { padding-left: 40px; padding-right: 40px; }
 
 .col { flex: 0 0 auto; }
 

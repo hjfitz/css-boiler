@@ -1,18 +1,27 @@
 # The Idea
-Create a basic CSS file, to enable bootstrapping of a quick hack.
+Create a CSS file I can use, with classes I'd find useful, so that no time's wasted in setting up a new sideproject.
 
 ## Todo/Aims
+* **come up with a name**
 * <s>Gridding with Flexbox</s>
 * <s>Classes for background/foreground color</s>
 * Header/Body Styling
-* Sticky footer with Flex
-* Finish off key
+* <s>Sticky footer with Flex</s>
+* Finish off docs
 * Helpful CSS classes
-    * Material design button
+    * <s>Material design button</s>
     * Better looking forms
-    * Material/Semantic inspired 'paper'
+    * <s>Material/Semantic inspired 'paper'</s>
 
-# Key
+# Docs
+
+## Gridding
+
+## Font
+
+## Colors
+
+## CSS Box Model
 - The Box model. Of the form `BB-PP-SS` 
     - `.mg-hz-20` yields a border on the left and right of size 20%.
     - `BB` - Box - either:
@@ -24,4 +33,4 @@ Create a basic CSS file, to enable bootstrapping of a quick hack.
     - `SS` - Size
         - Measured in percentages, one of `[20|40|60|80]` 
 
-
+## Helpers

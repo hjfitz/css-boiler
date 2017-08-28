@@ -36,6 +36,12 @@ body {
   width: 100vw;
 }
 
+.navbar.material {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+                0 1px 5px 0 rgba(0,0,0,0.12), 
+                0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
 .navbar.fixed {
   position: fixed;
   top: 0;
@@ -43,6 +49,13 @@ body {
 
 .navbar.fixed + .container {
   margin-top: 60px;
+}
+
+/* make footer and nav look less gross */
+
+.navbar,
+footer {
+  padding: 5%;
 }
 
 /*
@@ -762,22 +775,25 @@ body {
 }
 
 .col {
+  padding: 1%;
   box-sizing: border-box;
 }
 
 /* Spacing */
 
-.spc-12,
-.col {
-  padding: 0 12px;
+.row.spc-12 > .col {
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-.spc-24 {
-  padding: 0 24px;
+.row.spc-24 > .col {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.spc-40 {
-  padding: 0 40px;
+.row.spc-40 > .col {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .col {
