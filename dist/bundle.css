@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto|Roboto+Mono');
+/**
+ * sheet vars
+ * change these accordingly
+ */
+
+:root {
+  /* fonts */
+  --serif: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
+  --sans: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
+  --mono: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
+  /* colors */
+  --blue: #1e88e5;
+  --light-blue: #64b5f6;
+  --red: #d32f2f;
+  --green: #43a047;
+  --yellow: #fbc02d;
+  --pink: #c2185b;
+  --grey: #757575;
+  --light-grey: #eeeeee;
+  --white: #fafafa;
+  --black: #212121;
+  /* sizes */
+}
 /* General helpers and styling */
 
 body {
@@ -982,27 +1005,4 @@ body {
 
 .mono {
   font-family: var(--mono);
-}
-/**
- * sheet vars
- * change these accordingly
- */
-
-:root {
-  /* fonts */
-  --serif: 'Merriweather', 'Garamond', 'Open Serif', 'Times New Roman' serif;
-  --sans: 'Roboto', 'Helvetica', 'Open Sans', 'Segoe UI', sans-serif;
-  --mono: 'Roboto Mono', 'Monaco', 'Consolas', monospace;
-  /* colors */
-  --blue: #1e88e5;
-  --light-blue: #64b5f6;
-  --red: #d32f2f;
-  --green: #43a047;
-  --yellow: #fbc02d;
-  --pink: #c2185b;
-  --grey: #757575;
-  --light-grey: #eeeeee;
-  --white: #fafafa;
-  --black: #212121;
-  /* sizes */
 }
